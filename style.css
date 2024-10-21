@@ -1,0 +1,123 @@
+.box1{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    box-shadow: grey 1px 1px 5px 1px;
+    border-radius: 10px;
+    position: relative;
+}
+body{
+    background-color: aliceblue;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.mainphoto1{
+    width: 300px;
+    height: 200px;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
+h1{
+    display: grid;
+    place-content: center;
+    /* text-align: left;
+    padding-left: 10px; */
+    font-weight: 100;
+}
+*{
+    font-family: sans-serif;
+}
+p{
+    /* display: grid;
+    grid-column: 20px 1fr;
+    place-content: center; */
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 100;
+}
+hr{
+    width: 280px;
+    display: grid;
+    place-content: center;
+    /* display: flex;
+    justify-content: center; */
+}
+.ava1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+.light{
+    font-weight: 100;
+    position: absolute;
+    bottom: -15px;
+    left: 70px;
+}
+h5{
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+}
+.data{
+    font-weight: 100;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+
+.box2{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    box-shadow: grey 1px 1px 5px 1px;
+    border-radius: 10px;
+    position: relative;
+}
+.ava2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+.mainphoto2{
+    width: 300px;
+    height: 200px;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
+
+
+
+
+
+
+.box3{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    box-shadow: grey 1px 1px 5px 1px;
+    border-radius: 10px;
+    position: relative;
+}
+.ava3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+.mainphoto3{
+    width: 300px;
+    height: 200px;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
